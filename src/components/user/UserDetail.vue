@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Some User Details and Configurations</h3>
+    <h3>Some User Details</h3>
     <p>User Id: {{$route.params.id}}</p>
     <router-link
       :to="{ name:'userEdit' , params:{id: $route.params.id}  }"
